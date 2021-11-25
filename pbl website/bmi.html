@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="bmi.js"></script>
+</head>
+  
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">My-health</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="https://sandeshgavali.000webhostapp.com/index.html"class="mr-5 hover:text-gray-900">Home</a>
+            <a href="https://sandeshgavali.000webhostapp.com/Disease_information.html"class="mr-5 hover:text-gray-900">Disease information</a>
+            <a href="https://sandeshgavali.000webhostapp.com/bmi.html"class="mr-5 hover:text-gray-900">Services</a>
+            <a href="https://sandeshgavali.000webhostapp.com/contact.html"class="mr-5 hover:text-gray-900">Contact</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" 
+          onclick="window.open('https://sandeshgavali.000webhostapp.com/signin.html')">Sign in
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <hr>
+      <br>
+      <center>
+    <div class="container">
+        <h1 >BMI Calculator</h1>
+  
+        <!-- Option for providing height 
+            and weight to the user-->
+        <p>Height (in cm)</p>
+  
+        <input type="text" id="height">
+  
+        <p>Weight (in kg)</p>
+  
+        <input type="text" id="weight">
+  <br>
+        <button id="btn"  ><u>Click here to Calculate</u> </button>
+  
+        <div id="result"></div>
+    </div>
+</center>
+</body>
+  
+</html>

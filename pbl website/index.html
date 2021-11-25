@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>M-health</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">My-health</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="http://127.0.0.1:5500/index.html"class="mr-5 hover:text-gray-900">Home</a>
+            <a href="http://127.0.0.1:5500/Disease_information.html"class="mr-5 hover:text-gray-900">Disease information</a>
+            <a href="http://127.0.0.1:5500/bmi.html"class="mr-5 hover:text-gray-900">Services</a>
+            <a href="http://127.0.0.1:5500/contact.html"class="mr-5 hover:text-gray-900">Contact</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" 
+          onclick="window.open('http://127.0.0.1:5500/signin.html')">Sign in
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <hr>
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What Is mHealth and How It Works?
+            </h1>
+            <p class="mb-8 leading-relaxed">All medical and public health applications supported by mobile devices such as mobile phones, patient monitoring 
+              devices, personal digital assistants and other wireless devices are called mHealth. The rapid development of technology has also made a great 
+              impact on the field of healthcare. Mobile health, in other words, mHealth applications has been one of the services that have shaped health
+               technologies in recent years. There are many definitions of mHealth, but the World Health Organization defines mHealth as follows:
+                All medical and public health applications supported by mobile devices such as mobile phones, patient monitoring devices, personal digital 
+                assistants and other wireless devices are called mHealth.
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/700x500/?health">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Some of benefits of mHealth</h1>
+          </div>
+          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Apps that Improve Wellness</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Easy Health Tracking Via Health Apps</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Paperless Medical Documentation</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Revolutionizing Physical Examinations</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Apps To Treat Chronic Disorders</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium"> Apps Are Cost-Saving</span>
+              </div>
+            </div>
+          </section>
+          
+</body>
+</html>
